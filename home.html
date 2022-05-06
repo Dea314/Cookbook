@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Page Title</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <ul class="nav justify-content-center navbar-dark bg-dark">
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="home.html">HOME</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" onclick="myFunction()" href="#">CONTACT US</a>
+      </li>
+      <li class="nav-item">
+        <a
+          class="nav-link"
+          data-bs-toggle="collapse"
+          href="#collapseExample"
+          role="button"
+          aria-expanded="false"
+          aria-controls="collapseExample"
+        >
+          RECEPIES
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" onclick="myFunction()" aria-current="page" href="#"
+          >ABOUT US</a
+        >
+      </li>
+      <li class="nav-item justify-content-center">
+        <div class="col">
+          <input
+            type="text"
+            class="form-control"
+            aria-describedby="passwordHelpInline"
+            placeholder="Search"
+          />
+        </div>
+      </li>
+    </ul>
+
+    <div
+      class="collapse container-flud align-content-aroundr justify-content-around"
+      id="collapseExample"
+    >
+      <div class="card"></div>
+
+      <div class="d-flex flex-wrap flex-row justify-content-center align-items-center">
+       <div class="flex-col" style="width: 270px">
+          <a class="navbar-brand" href="recipes/recipe1.html">
+            <img
+              src="main_images/stelios1.jpg"
+              alt="Avatar Logo"
+              style="width: 40px; height: 30px;"
+              class="rounded-pill"
+            />
+            Souvlaki       
+          </a>
+        </div>
+        <div class="flex-col" style="width: 270px">
+          <a class="navbar-brand" href="recipes/recipe2.html">
+            <img
+              src="main_images/stelios2.jpg"
+              alt="Avatar Logo"
+              style="width: 40px; height: 30px;"
+              class="rounded-pill"
+            />
+            Vegan Goulash
+          </a>
+        </div>
+        <div class="flex-col" style="width: 270px">
+          <a class="navbar-brand" href="recipes/recipe3.html">
+            <img
+              src="main_images/stelios3.jpg"
+              alt="Avatar Logo"
+              style="width: 40px; height: 30px;"
+              class="rounded-pill"
+            />
+            Mousaka
+          </a>
+        </div>
+      </div>
+
+      <div class="d-flex flex-wrap ow justify-content-center align-items-center">
+        <div class="flex-col" style="width: 270px">
+          <a class="navbar-brand" href="recipes/recipe4.html">
+            <img
+              src="img/Lahana_sarma.jpg"
+              alt="Avatar Logo"
+              style="width: 40px; height: 30px;"
+              class="rounded-pill"
+            />
+            Sarma
+          </a>
+        </div>
+        <div class="flex-col" style="width: 270px">
+          <a class="navbar-brand" href="recipes/recipe5.html">
+            <img
+              src="img/gulas.webp"
+              alt="Avatar Logo"
+              style="width: 40px; height: 30px;"
+              class="rounded-pill"
+            />
+            Gulas
+          </a>
+        </div>
+        <div class="flex-col" style="width: 270px">
+          <a class="navbar-brand" href="recipes/recipe6.html">
+            <img
+              src="img/cevapi.png"
+              alt="Avatar Logo"
+              style="width: 40px; height: 30px;"
+              class="rounded-pill"
+            />
+            Cevapi
+          </a>
+        </div>
+      </div>
+
+      <div class="d-flex flex-wrap flex-row justify-content-center align-items-start">
+        <div class="flex-col" style="width: 270px">
+          <a class="navbar-brand" href="recipes/recipe7.html">
+            <img
+              src="img/dea7.jpg"
+              alt="Avatar Logo"
+              style="width: 40px; height: 30px;"
+              class="rounded-pill"
+            />
+            Croatian stuffed peppers
+          </a>
+        </div>
+        <div class="flex-col" style="width: 270px">
+          <a class="navbar-brand" href="recipes/recipe8.html">
+            <img
+              src="img/dea8.jpeg"
+              alt="Avatar Logo"
+              style="width: 40px; height: 30px;"
+              class="rounded-pill"
+            />
+            Roasted suckling pig
+          </a>
+        </div>
+        <div class="flex-col" style="width: 270px">
+          <a class="navbar-brand" href="recipes/recipe9.html">
+            <img
+              src="img/dea9.jpg"
+              alt="Avatar Logo"
+              style="width: 40px; height: 30px;"
+              class="rounded-pill"
+            />
+            Pasticada
+          </a>
+        </div>
+      </div>
+    </div>
+    <main>
+      <!-- Recipes Section -->
+
+      <section class="container recipe-section">
+        <h2 class="recipies-title">Recipes</h2>
+        <div class="recipes grid-3-col">
+          <div>
+            <div class="recipe-card card4">
+              <a href="recipes/recipe4.html"
+                ><img src="img/cevapi.png" alt=""
+              /></a>
+              <h3 class="card-title">Cevapi</h3>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Nostrum minus soluta ipsa? Velit, dolorum hic!
+              </p>
+              <div class="card-difficulty grid-3-col">
+                <img src="main_images/time.png" />
+                <img src="main_images/baking-2.png" />
+                <img src="main_images/soup.png" />
+                <p>25'</p>
+                <p>Easy pease</p>
+                <p>2-4</p>
+              </div>
+            </div>
+            <div class="recipe-card card1">
+              <a href="recipes/recipe1.html"
+                ><img src="main_images/stelios1.jpg" alt=""
+              /></a>
+              <h3 class="card-title">Souvlaki</h3>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Nostrum minus soluta ipsa? Velit, dolorum hic!
+              </p>
+              <div class="card-difficulty grid-3-col">
+                <img src="main_images/time.png" />
+                <img src="main_images/baking-2.png" />
+                <img src="main_images/soup.png" />
+                <p>25'</p>
+                <p>Easy pease</p>
+                <p>2-4</p>
+              </div>
+            </div>
+            <div class="recipe-card card2">
+              <a href="recipes/recipe2.html"
+                ><img src="main_images/stelios2.jpg" alt=""
+              /></a>
+              <h3 class="card-title">Vegan Gulash</h3>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Nostrum minus soluta ipsa? Velit, dolorum hic!
+              </p>
+              <div class="card-difficulty grid-3-col">
+                <img src="main_images/time.png" />
+                <img src="main_images/baking-2.png" />
+                <img src="main_images/soup.png" />
+                <p>25'</p>
+                <p>Easy pease</p>
+                <p>2-4</p>
+              </div>
+            </div>
+          </div>
+          <dic>
+            <div class="recipe-card card3">
+              <a href="recipes/recipe3.html"
+                ><img src="main_images/stelios3.jpg" alt=""
+              /></a>
+              <h3 class="card-title">Mousaka</h3>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Nostrum minus soluta ipsa? Velit, dolorum hic!
+              </p>
+              <div class="card-difficulty grid-3-col">
+                <img src="main_images/time.png" />
+                <img src="main_images/baking-2.png" />
+                <img src="main_images/soup.png" />
+                <p>25'</p>
+                <p>Easy pease</p>
+                <p>2-4</p>
+              </div>
+            </div>
+            <div class="recipe-card card6">
+              <a href="recipes/recipe6.html"
+                ><img src="img/Lahana_sarma.jpg" alt=""
+              /></a>
+              <h3 class="card-title">Lahana Sarma</h3>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Nostrum minus soluta ipsa? Velit, dolorum hic!
+              </p>
+              <div class="card-difficulty grid-3-col">
+                <img src="main_images/time.png" />
+                <img src="main_images/baking-2.png" />
+                <img src="main_images/soup.png" />
+                <p>25'</p>
+                <p>Easy pease</p>
+                <p>2-4</p>
+              </div>
+            </div>
+            <div class="recipe-card card9">
+              <a href="recipes/recipe9.html"
+                ><img src="img/dea9.jpg" alt=""
+              /></a>
+              <h3 class="card-title">Pasticada</h3>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Nostrum minus soluta ipsa? Velit, dolorum hic!
+              </p>
+              <div class="card-difficulty grid-3-col">
+                <img src="main_images/time.png" />
+                <img src="main_images/baking-2.png" />
+                <img src="main_images/soup.png" />
+                <p>25'</p>
+                <p>Easy pease</p>
+                <p>2-4</p>
+              </div>
+            </div>
+          </dic>
+          <div>
+            <div class="recipe-card card7">
+              <a href="recipes/recipe7.html"
+                ><img src="img/dea7.jpg" alt=""
+              /></a>
+              <h3 class="card-title">Croatian stuffed peppers</h3>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Nostrum minus soluta ipsa? Velit, dolorum hic!
+              </p>
+              <div class="card-difficulty grid-3-col">
+                <img src="main_images/time.png" />
+                <img src="main_images/baking-2.png" />
+                <img src="main_images/soup.png" />
+                <p>25'</p>
+                <p>Easy pease</p>
+                <p>2-4</p>
+              </div>
+            </div>
+            <div class="recipe-card card8">
+              <a href="recipes/recipe8.html"
+                ><img src="img/dea8.jpeg" alt=""
+              /></a>
+              <h3 class="card-title">Roasted suckling pig</h3>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Nostrum minus soluta ipsa? Velit, dolorum hic!
+              </p>
+              <div class="card-difficulty grid-3-col">
+                <img src="main_images/time.png" />
+                <img src="main_images/baking-2.png" />
+                <img src="main_images/soup.png" />
+                <p>25'</p>
+                <p>Easy pease</p>
+                <p>2-4</p>
+              </div>
+            </div>
+            <div class="recipe-card card5">
+              <a href="recipes/recipe5.html"
+                ><img src="img/gulas.webp" alt=""
+              /></a>
+              <h3 class="card-title">Gulash</h3>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Nostrum minus soluta ipsa? Velit, dolorum hic!
+              </p>
+              <div class="card-difficulty grid-3-col">
+                <img src="main_images/time.png" />
+                <img src="main_images/baking-2.png" />
+                <img src="main_images/soup.png" />
+                <p>25'</p>
+                <p>Easy pease</p>
+                <p>2-4</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Carousel Section -->
+
+      <section class="container carousel-section">
+        <div class="carousel">
+          <button class="carousel__button left is-hidden">
+            <img src="main_images/icons8-back-24.png" alt="" />
+          </button>
+          <div class="carousel__container">
+            <ul class="carousel__track">
+              <li class="carousel__items current-slide">
+                <a><img src="main_images/m2.jpg" alt="" /></a>
+              </li>
+              <li class="carousel__items">
+                <a><img src="main_images/m1.jpg" alt="" /></a>
+              </li>
+              <li class="carousel__items">
+                <a><img src="main_images/m2.jpg" alt="" /></a>
+              </li>
+              <li class="carousel__items">
+                <a><img src="main_images/s3.jpg" alt="" /></a>
+              </li>
+            </ul>
+          </div>
+          <button class="carousel__button right">
+            <img src="main_images/icons8-forward-24.png" alt="" />
+          </button>
+
+          <div class="carousel__nav">
+            <button class="carousel__indicator current-slide"></button>
+            <button class="carousel__indicator"></button>
+            <button class="carousel__indicator"></button>
+            <button class="carousel__indicator"></button>
+          </div>
+        </div>
+      </section>
+
+      <script src="steliosJs/carousel.js"></script>
+    </main>
+    <footer
+      class="bg-dark text-white dark container-flud justify-content-around d-flex"
+    >
+      <div class="d-flex-row justify-content-center">
+        <div class="social_icons_rounded">
+          <ul class="d-flex justify-content-center flex-wrap">
+            <li>
+              <a
+                href="https://www.facebook.com/"
+                class="gap f_facebook"
+                target="_blank"
+                ><i class="fa fa-facebook" aria-hidden="true"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                href="https://twitter.com/i/flow/login"
+                target="_blank"
+                class="gap t_twitter"
+                ><i class="fa fa-twitter" aria-hidden="true"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                href="https://de.linkedin.com/"
+                target="_blank"
+                class="gap linkedin"
+                ><i class="fa fa-linkedin" aria-hidden="true"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                href="https://www.google.de/"
+                class="gap g_google"
+                target="_blank"
+                ><i class="fa fa-google-plus" aria-hidden="true"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                href="https://www.skype.com/en/"
+                class="gap skype"
+                target="_blank"
+                ><i class="fa fa-skype" aria-hidden="true"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                href="https://www.youtube.com/"
+                class="gap flickr"
+                target="_blank"
+                ><i class="fa fa-flickr" aria-hidden="true"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="h4 d-flex justify-content-center flex-wrap">
+          © 2022 Copyright: Danijela Stelios Nett
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

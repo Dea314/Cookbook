@@ -1,0 +1,281 @@
+/* Grid */
+.grid-3-col {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: repeat(3, auto);
+  grid-gap: 20px;
+  gap: 20px;
+}
+
+/* Nett Navbar */
+.nav {
+  height: 15%;
+  align-items: center;
+  color: white;
+  padding: 5px;
+}
+footer {
+  height: 15%;
+}
+.social_icons_rounded ul {
+  padding: 10px;
+  list-style: none;
+}
+.nav a {
+  color: white;
+}
+.nav a:active {
+  color: #007bb5;
+}
+.social_icons_rounded ul li a {
+  float: left;
+  border-radius: 50%;
+  line-height: 40px;
+  color: #e0e0e0;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  border: 1px solid #e0e0e0;
+}
+
+.social_icons_rounded ul li a i {
+  font-size: 16px;
+}
+
+.f_facebook:hover {
+  color: #fff;
+  background: #2a66b3;
+  border: 1px solid #2a66b3;
+}
+
+.t_twitter:hover {
+  color: #fff;
+  background: #35bbec;
+  border: 1px solid #35bbec;
+}
+
+.pinterest:hover {
+  color: #fff;
+  background: #cb2027;
+  border: 1px solid #cb2027;
+}
+
+.linkedin:hover {
+  color: #fff;
+  background: #007bb5;
+  border: 1px solid #007bb5;
+}
+
+.g_google:hover {
+  color: #fff;
+  background: #e55644;
+  border: 1px solid #e55644;
+}
+
+.dribbble:hover {
+  color: #fff;
+  background: #ea4c89;
+  border: 1px solid #ea4c89;
+}
+
+.skype:hover {
+  color: #fff;
+  background: #01aaf8;
+  border: 1px solid #01aaf8;
+}
+
+.flickr:hover {
+  color: #fff;
+  background: #ff0084;
+  border: 1px solid #ff0084;
+}
+
+.gap {
+  margin-left: 15px;
+}
+
+/* Recipe Section */
+
+.recipe-section h2,
+.recipe-section h3 {
+  text-align: center;
+}
+
+.recipe-section img {
+  width: 100%;
+  border-radius: 5%;
+}
+.recipe-card {
+  border: #cccccc solid 1px;
+  border-radius: 5%;
+  padding: 1.5rem;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.recipe-card:hover {
+  opacity: 0.5;
+  transition: 0.5s ease;
+}
+.recipe-card p {
+  text-align: center;
+}
+
+.recipe-section h2 {
+  margin-bottom: 2rem;
+}
+.card-difficulty img {
+  width: auto;
+  margin: auto;
+}
+/* Stelios General */
+.container.recipe-section {
+  box-shadow: none;
+  border: none;
+  margin-top: 4rem;
+}
+/* media queries */
+
+@media only screen and (max-width: 900px) {
+  .recipes.grid-3-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3, auto);
+    grid-gap: 20px;
+    gap: 20px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .recipes.grid-3-col {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, auto);
+    grid-gap: 20px;
+    gap: 20px;
+  }
+}
+
+/* Carousel area */
+.carousel {
+  position: relative;
+  height: 600px;
+  width: 80%;
+  margin: 0 auto;
+}
+.carousel img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.carousel__container {
+  background-color: #01aaf8;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.carousel__track {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  position: relative;
+  height: 100%;
+  transition: transform 250ms ease-in;
+}
+.carousel__items {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+.container.carousel-section {
+  box-shadow: none;
+  border: none;
+}
+.carousel__button.left {
+  left: -40px;
+}
+.carousel__button.right {
+  right: -40px;
+}
+.carousel__nav {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.carousel__indicator {
+  border: 0;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  background: rgba(0, 0, 0, 0.3);
+  margin: 0px 10px;
+  cursor: pointer;
+}
+.carousel__indicator.current-slide {
+  background: rgba(0, 0, 0, 0.75);
+}
+.carousel__button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  height: 36px;
+  width: 36px;
+}
+.is-hidden {
+  display: none;
+}
+
+/* Dea single recipe */
+.container {
+  border: solid 1px rgb(155, 153, 151);
+  border-radius: 10px;
+  box-shadow: inset 1px 2px 2px 0px rgba(69, 69, 69, 0.75);
+}
+
+.form-check {
+  font-size: 18px;
+  margin: 0 50px;
+}
+
+.input-group-text h4 {
+  text-align: left;
+}
+
+.d-flex {
+  display: flex;
+  margin: 70px 0;
+}
+
+.input-group-prepend {
+  display: flex;
+}
+.img-fluid {
+  padding: 20px 0;
+  padding-left: 50px;
+  border-radius: 7%;
+  width: 100%;
+}
+h2 {
+  text-align: center;
+  padding: 0px;
+}
+
+.vertical-center {
+  min-height: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: flex-start;
+  padding: 50px;
+}
+.paragraph {
+  font-size: 18px;
+  margin: 0 50px;
+}
+h4 {
+  padding-bottom: 30px;
+}
+/* Dea single recipe */
