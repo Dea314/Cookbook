@@ -38,6 +38,18 @@ footer {
   border: 1px solid #e0e0e0;
 }
 
+.card-title {
+  margin-top: 1rem;
+}
+
+.recipe-title {
+  margin-top: 2rem;
+}
+
+.logo {
+  width: 7%;
+}
+
 .social_icons_rounded ul li a i {
   font-size: 16px;
 }

@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Page Title</title>
+    <title>Cookbook</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
@@ -26,7 +26,7 @@
         <a class="nav-link active" aria-current="page" href="home.html">HOME</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" onclick="myFunction()" href="#">CONTACT US</a>
+        <a class="nav-link active" href="contact.html">CONTACT US</a>
       </li>
       <li class="nav-item">
         <a
@@ -41,9 +41,7 @@
         </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link active" onclick="myFunction()" aria-current="page" href="#"
-          >ABOUT US</a
-        >
+        <a class="nav-link" href="about.html">ABOUT US</a>
       </li>
       <li class="nav-item justify-content-center">
         <div class="col">
@@ -51,7 +49,7 @@
             type="text"
             class="form-control"
             aria-describedby="passwordHelpInline"
-            placeholder="Search"
+            placeholder="Search..."
           />
         </div>
       </li>
@@ -63,16 +61,18 @@
     >
       <div class="card"></div>
 
-      <div class="d-flex flex-wrap flex-row justify-content-center align-items-center">
-       <div class="flex-col" style="width: 270px">
+      <div
+        class="d-flex flex-wrap flex-row justify-content-center align-items-center"
+      >
+        <div class="flex-col" style="width: 270px">
           <a class="navbar-brand" href="recipes/recipe1.html">
             <img
-              src="main_images/stelios1.jpg"
+              src="main_images/chicken-soup.png"
               alt="Avatar Logo"
-              style="width: 40px; height: 30px;"
+              style="width: 40px; height: 40px"
               class="rounded-pill"
             />
-            Souvlaki       
+            Chicken soup
           </a>
         </div>
         <div class="flex-col" style="width: 270px">
@@ -80,7 +80,7 @@
             <img
               src="main_images/stelios2.jpg"
               alt="Avatar Logo"
-              style="width: 40px; height: 30px;"
+              style="width: 40px; height: 40px"
               class="rounded-pill"
             />
             Vegan Goulash
@@ -91,7 +91,7 @@
             <img
               src="main_images/stelios3.jpg"
               alt="Avatar Logo"
-              style="width: 40px; height: 30px;"
+              style="width: 40px; height: 40px"
               class="rounded-pill"
             />
             Mousaka
@@ -99,13 +99,15 @@
         </div>
       </div>
 
-      <div class="d-flex flex-wrap ow justify-content-center align-items-center">
+      <div
+        class="d-flex flex-wrap ow justify-content-center align-items-center"
+      >
         <div class="flex-col" style="width: 270px">
           <a class="navbar-brand" href="recipes/recipe4.html">
             <img
               src="img/Lahana_sarma.jpg"
               alt="Avatar Logo"
-              style="width: 40px; height: 30px;"
+              style="width: 40px; height: 40px"
               class="rounded-pill"
             />
             Sarma
@@ -116,7 +118,7 @@
             <img
               src="img/gulas.webp"
               alt="Avatar Logo"
-              style="width: 40px; height: 30px;"
+              style="width: 40px; height: 40px"
               class="rounded-pill"
             />
             Gulas
@@ -127,7 +129,7 @@
             <img
               src="img/cevapi.png"
               alt="Avatar Logo"
-              style="width: 40px; height: 30px;"
+              style="width: 40px; height: 40px"
               class="rounded-pill"
             />
             Cevapi
@@ -135,13 +137,15 @@
         </div>
       </div>
 
-      <div class="d-flex flex-wrap flex-row justify-content-center align-items-start">
+      <div
+        class="d-flex flex-wrap flex-row justify-content-center align-items-start"
+      >
         <div class="flex-col" style="width: 270px">
           <a class="navbar-brand" href="recipes/recipe7.html">
             <img
               src="img/dea7.jpg"
               alt="Avatar Logo"
-              style="width: 40px; height: 30px;"
+              style="width: 40px; height: 40px"
               class="rounded-pill"
             />
             Croatian stuffed peppers
@@ -152,7 +156,7 @@
             <img
               src="img/dea8.jpeg"
               alt="Avatar Logo"
-              style="width: 40px; height: 30px;"
+              style="width: 40px; height: 40px"
               class="rounded-pill"
             />
             Roasted suckling pig
@@ -163,7 +167,7 @@
             <img
               src="img/dea9.jpg"
               alt="Avatar Logo"
-              style="width: 40px; height: 30px;"
+              style="width: 40px; height: 40px"
               class="rounded-pill"
             />
             Pasticada
@@ -198,20 +202,26 @@
             </div>
             <div class="recipe-card card1">
               <a href="recipes/recipe1.html"
-                ><img src="main_images/stelios1.jpg" alt=""
+                ><img src="main_images/chicken-soup.png" alt="chicken-soup"
               /></a>
-              <h3 class="card-title">Souvlaki</h3>
+              <h3 class="card-title">Chicken soup</h3>
               <p class="card-text">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Nostrum minus soluta ipsa? Velit, dolorum hic!
+                Use up leftover chicken in this rustic soup with garlic yogurt.
+                Best served with cheese scones!
               </p>
               <div class="card-difficulty grid-3-col">
                 <img src="main_images/time.png" />
                 <img src="main_images/baking-2.png" />
                 <img src="main_images/soup.png" />
-                <p>25'</p>
+                <p>
+                  Prep: 15'<br />
+                  Cook: 35'
+                </p>
                 <p>Easy pease</p>
-                <p>2-4</p>
+                <p>
+                  Serves <br />
+                  2-4
+                </p>
               </div>
             </div>
             <div class="recipe-card card2">
@@ -443,7 +453,8 @@
         </div>
 
         <div class="h4 d-flex justify-content-center flex-wrap">
-          © 2022 Copyright: Danijela Stelios Nett
+          © 2022 Copyright:
+          <img src="/img/df-logo.png" alt="dea-logo" class="logo" />
         </div>
       </div>
     </footer>
