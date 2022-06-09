@@ -249,6 +249,9 @@ footer {
   font-size: 18px;
   margin: 0 50px;
 }
+.form-check-label {
+  width: fit-content;
+}
 
 .input-group-text h4 {
   text-align: left;
