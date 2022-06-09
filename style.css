@@ -42,10 +42,6 @@ footer {
   margin-top: 1rem;
 }
 
-.recipe-title {
-  margin-top: 2rem;
-}
-
 .logo {
   width: 7%;
 }
@@ -274,7 +270,7 @@ footer {
 }
 h2 {
   text-align: center;
-  padding: 0px;
+  padding-top: 15px;
 }
 
 .vertical-center {
