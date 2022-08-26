@@ -14,6 +14,7 @@
     />
     <script src="script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
     <link
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -28,9 +29,7 @@
           >HOME</a
         >
       </li>
-      <li class="nav-item">
-        <a class="nav-link active" href="contact.html">CONTACT US</a>
-      </li>
+
       <li class="nav-item">
         <a
           class="nav-link"
@@ -46,16 +45,9 @@
       <li class="nav-item">
         <a class="nav-link" href="about.html">ABOUT US</a>
       </li>
-      <!-- <li class="nav-item justify-content-center">
-        <div class="col">
-          <input
-            type="text"
-            class="form-control"
-            aria-describedby="passwordHelpInline"
-            placeholder="Search..."
-          />
-        </div>
-      </li> -->
+      <li class="nav-item">
+        <a class="nav-link active" href="contact.html">CONTACT US</a>
+      </li>
     </ul>
     <!-- Recipes dropdown menu -->
     <div
@@ -179,6 +171,47 @@
       </div>
     </div>
 
-    <div>CONTACT</div>
+    <h2 class="contact-title">Contact</h2>
+    <div>
+      <div class="contact-form-wrapper d-flex justify-content-center">
+        <form class="contact-form" id="submitForm">
+          <h5 class="title">Contact us</h5>
+          <p class="description">
+            Feel free to contact us if you need any assistance, any help or
+            another question.
+          </p>
+          <div>
+            <input
+              type="text"
+              class="form-control rounded border-white mb-3 form-input"
+              id="name"
+              placeholder="Name"
+              required
+            />
+          </div>
+          <div>
+            <input
+              type="email"
+              class="form-control rounded border-white mb-3 form-input"
+              placeholder="Email"
+              required
+            />
+          </div>
+          <div>
+            <textarea
+              id="message"
+              class="form-control rounded border-white mb-3 form-text-area"
+              rows="5"
+              cols="30"
+              placeholder="Message"
+              required
+            ></textarea>
+          </div>
+          <div class="submit-button-wrapper">
+            <input type="submit" class="submitBtn" value="Send" />
+          </div>
+        </form>
+      </div>
+    </div>
   </body>
 </html>
